@@ -1,0 +1,45 @@
+{
+  "name": "polylangchain",
+  "version": "0.0.1",
+  "description": "An experiment to port langchain to Go, .Net and Java using jsii",
+  "homepage": "https://github.com/mattzcarey/polylangchain",
+  "author": {
+    "name": "Matt Carey",
+    "email": "mattc@aleios.com"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "jsii -vvv",
+    "build:watch": "jsii -w",
+    "package": "jsii-pacmak -vvv"
+  },
+  "keywords": [
+    "langchain",
+    "llms",
+    "go",
+    "jsii"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattzcarey/polylangchain"
+  },
+  "jsii": {
+    "outdir": "dist",
+    "tsc": {
+      "outdir": "dist"
+    },
+    "versionFormat": "full",
+    "targets": {
+      "go": {
+        "moduleName": "github.com/mattzcarey/polylangchain",
+        "packageName": "langchaingo"
+      }
+    }
+  },
+  "devDependencies": {
+    "jsii": "^5.1.10",
+    "jsii-pacmak": "^1.86.1"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "author": {
+    "email": "mattc@aleios.com",
+    "name": "Matt Carey",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "An experiment to port langchain to Go, .Net and Java using jsii",
+  "homepage": "https://github.com/mattzcarey/polylangchain",
+  "jsiiVersion": "5.1.10 (build 041401a)",
+  "keywords": [
+    "langchain",
+    "llms",
+    "go",
+    "jsii"
+  ],
+  "license": "MIT",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    }
+  },
+  "name": "polylangchain",
+  "readme": {
+    "markdown": "# PolyLangChain\n\n## An experiment to transpile LangChain to Go, .Net and Java using jsii"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattzcarey/polylangchain"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "go": {
+      "moduleName": "github.com/mattzcarey/polylangchain",
+      "packageName": "langchaingo"
+    },
+    "js": {
+      "npm": "polylangchain"
+    }
+  },
+  "types": {
+    "polylangchain.OpenAI": {
+      "assembly": "polylangchain",
+      "fqn": "polylangchain.OpenAI",
+      "initializer": {
+        "locationInModule": {
+          "filename": "lib/llms/openai.ts",
+          "line": 2
+        }
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "lib/llms/openai.ts",
+        "line": 1
+      },
+      "name": "OpenAI",
+      "symbolId": "lib/llms/openai:OpenAI"
+    }
+  },
+  "version": "0.0.1",
+  "fingerprint": "hJccTo33Y7QLZ2DbIg6W02T0nZ/j+ke3YAS92ffhwrM="
+}
